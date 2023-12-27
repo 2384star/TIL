@@ -61,7 +61,7 @@ st.write('Selected Grey color is', Grey_color)
 
 
 DarkGrey_color = st.selectbox(
-    'Select a color of the Blue',
+    'Select a color of the DarkGrey',
     options=['0.00000', '0.00283', '0.00550', '0.00833', '0.01116', '0.01666', '0.02783','0.05550','0.08333','0.11116','0.13883','0.16666','0.22216','0.25000','0.27783','0.33333','0.41666','0.44450','0.50000','0.66666','1.00000'],
     key='darkgrey_slider')
 st.write('Selected DarkGrey color is', DarkGrey_color)
