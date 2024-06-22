@@ -1,7 +1,8 @@
 # 이미지 크기 구하기
 - 불러온 이미지로 이미지 크기를 구하는 프로젝트
 
-- 
+
+
 - ## 목차
 
 - [소개](#소개)
@@ -14,3 +15,16 @@
 
  Wd는 95mm로 설정하엿고
  이미지는 고래밥이미지를 대상으로 측정하여 픽셀크기를 계산하엿습니다
+## 설치
+
+우선 파이썬환경을 구축합니다. 그후 가상환경을 만들어서 활성화 시킵니다
+
+```bash
+# 클론 명령어
+git clone https://github.com/username/repository.git
+
+# 프로젝트 디렉토리로 이동
+cd repository
+
+# 필요한 패키지 설치
+pip install -r requirements.txt
