@@ -19,12 +19,39 @@
 
 우선 파이썬환경을 구축합니다. 그후 가상환경을 만들어서 활성화 시킵니다
 
-```bash
-# 클론 명령어
-git clone https://github.com/username/repository.git
 
-# 프로젝트 디렉토리로 이동
-cd repository
+1. **프로젝트를 클론합니다:**
 
-# 필요한 패키지 설치
-pip install -r requirements.txt
+    ```bash
+    git clone https://github.com/username/repository.git
+    ```
+
+2. **프로젝트 디렉토리로 이동합니다:**
+
+    ```bash
+    cd repository
+    ```
+
+3. **가상 환경을 생성합니다:**
+
+    ```bash
+    python -m venv image_dis
+    ```
+
+4. **가상 환경을 활성화합니다:**
+
+    - **Windows:**
+        ```bash
+        image_dis\Scripts\activate
+        ```
+
+    - **MacOS/Linux:**
+        ```bash
+        source image_dis/bin/activate
+        ```
+
+5. **필요한 패키지를 설치합니다:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
